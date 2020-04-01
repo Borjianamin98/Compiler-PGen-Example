@@ -50,15 +50,15 @@ integer = 0 | [-]?[1-9][0-9]* | [-]?0(x|X)[0-9A-Fa-f]+ | [-]?0[0-7]+
 
 <YYINITIAL> {
 
-    "("                             { return symbol("lparen"); }
-    ")"                             { return symbol("rparen"); }
-    "+"                             { return symbol("plus"); }
-    "-"                             { return symbol("minus"); }
-    "*"                             { return symbol("multiply"); }
-    "/"                             { return symbol("divide"); }
-    "%"                             { return symbol("mod"); }
+    "("                             { return symbol("LPAREN"); }
+    ")"                             { return symbol("RPAREN"); }
+    "+"                             { return symbol("PLUS"); }
+    "-"                             { return symbol("MINUS"); }
+    "*"                             { return symbol("MULTIPLY"); }
+    "/"                             { return symbol("DIVIDE"); }
+    "%"                             { return symbol("MOD"); }
 
-    {integer}                       { return symbol("int_const", Integer.valueOf(yytext())); }
+    {integer}                       { return symbol("INT_CONST", Integer.valueOf(yytext())); }
 
     {WhiteSpace}+                   { /* skip */ }
 }

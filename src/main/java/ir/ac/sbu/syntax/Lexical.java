@@ -4,6 +4,5 @@ import ir.ac.sbu.lexical.Symbol;
 
 public interface Lexical {
     String nextToken();
-
     Symbol currentToken();
 }

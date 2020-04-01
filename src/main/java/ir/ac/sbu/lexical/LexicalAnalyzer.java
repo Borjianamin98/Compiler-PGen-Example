@@ -639,42 +639,42 @@ public class LexicalAnalyzer implements Lexical {
             // fall through
           case 12: break;
           case 3: 
-            { return symbol("int_const", Integer.valueOf(yytext()));
+            { return symbol("INT_CONST", Integer.valueOf(yytext()));
             } 
             // fall through
           case 13: break;
           case 4: 
-            { return symbol("minus");
+            { return symbol("MINUS");
             } 
             // fall through
           case 14: break;
           case 5: 
-            { return symbol("lparen");
+            { return symbol("LPAREN");
             } 
             // fall through
           case 15: break;
           case 6: 
-            { return symbol("rparen");
+            { return symbol("RPAREN");
             } 
             // fall through
           case 16: break;
           case 7: 
-            { return symbol("plus");
+            { return symbol("PLUS");
             } 
             // fall through
           case 17: break;
           case 8: 
-            { return symbol("multiply");
+            { return symbol("MULTIPLY");
             } 
             // fall through
           case 18: break;
           case 9: 
-            { return symbol("divide");
+            { return symbol("DIVIDE");
             } 
             // fall through
           case 19: break;
           case 10: 
-            { return symbol("mod");
+            { return symbol("MOD");
             } 
             // fall through
           case 20: break;

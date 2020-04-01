@@ -9,8 +9,8 @@
         "isFinal": false
       },
       {
-        "x": 559.2000000000002,
-        "y": 255.2,
+        "x": 684.2000000000002,
+        "y": 253.2,
         "id": 1,
         "isFinal": true
       }
@@ -21,8 +21,8 @@
         "end": 1,
         "token": "exprPlusMinus",
         "func": "",
-        "anchorX": 383.9999999999999,
-        "anchorY": 252.8,
+        "anchorX": 402.99999999999983,
+        "anchorY": 251.79999999999998,
         "isGraph": true,
         "isGlobal": false
       }
@@ -229,20 +229,20 @@
         "isFinal": false
       },
       {
-        "x": 277.2,
-        "y": 352.19999999999993,
+        "x": 339.2,
+        "y": 309.19999999999993,
         "id": 12,
         "isFinal": false
       },
       {
-        "x": 546.9999999999999,
-        "y": 353.8,
+        "x": 584.9999999999999,
+        "y": 178.8,
         "id": 13,
         "isFinal": true
       },
       {
-        "x": 342.79999999999995,
-        "y": 579.4,
+        "x": 577.8,
+        "y": 572.4,
         "id": 14,
         "isFinal": true
       }
@@ -253,8 +253,8 @@
         "end": 12,
         "token": "MINUS",
         "func": "",
-        "anchorX": 156.29999999999959,
-        "anchorY": 378.49999999999966,
+        "anchorX": 217.99999999999997,
+        "anchorY": 385.0,
         "isGraph": false,
         "isGlobal": false
       },
@@ -263,8 +263,8 @@
         "end": 14,
         "token": "exprBase",
         "func": "",
-        "anchorX": 167.89999999999966,
-        "anchorY": 550.599999999999,
+        "anchorX": 305.0,
+        "anchorY": 500.99999999999994,
         "isGraph": true,
         "isGlobal": false
       },
@@ -273,8 +273,8 @@
         "end": 13,
         "token": "exprBase",
         "func": "exprNeg",
-        "anchorX": 376.5000000000002,
-        "anchorY": 351.199999999999,
+        "anchorX": 448.0,
+        "anchorY": 249.99999999999994,
         "isGraph": true,
         "isGlobal": false
       }
@@ -315,8 +315,8 @@
         "end": 16,
         "token": "const_val",
         "func": "",
-        "anchorX": 303.0,
-        "anchorY": 401.0,
+        "anchorX": 309.0,
+        "anchorY": 461.0,
         "isGraph": true,
         "isGlobal": false
       },
@@ -363,8 +363,8 @@
         "isFinal": false
       },
       {
-        "x": 486.20000000000016,
-        "y": 466.5999999999999,
+        "x": 898.2000000000002,
+        "y": 469.5999999999999,
         "id": 20,
         "isFinal": true
       }
@@ -375,8 +375,8 @@
         "end": 20,
         "token": "INT_CONST",
         "func": "pushIntegerConst",
-        "anchorX": 209.7999999999995,
-        "anchorY": 470.19999999999794,
+        "anchorX": 463.0,
+        "anchorY": 470.99999999999994,
         "isGraph": false,
         "isGlobal": false
       }
